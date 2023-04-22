@@ -12,6 +12,15 @@
     "pnpm-lock.yaml": true,
     "**/dist": true
   },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+},
   "i18n-ally.keystyle": "flat",
   "typescript.tsdk": "node_modules/typescript/lib",
   "prettier.semi": false,
